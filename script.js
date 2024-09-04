@@ -15,25 +15,13 @@ const BannerLeftArrow = document.getElementById('l-arrow-1');
 const BannerRightArrow = document.getElementById('r-arrow-1');
 const BannerContainer = document.getElementById('banner-container');
 
-// Flags to track the direction of scroll
-let leftScrollFlag = true;
-let rightScrollFlag = true;
 
 BannerLeftArrow.addEventListener('click', () => {
-    if (leftScrollFlag) {
-        BannerContainer.scrollLeft -= 1200; // Scroll left normally
-    } else {
-        BannerContainer.scrollLeft += 1200; // Scroll right on the second click
-    }
-    leftScrollFlag = !leftScrollFlag; // Toggle the flag
+        BannerContainer.scrollLeft -= 1200; 
 });
 
 BannerRightArrow.addEventListener('click', () => {
-    if (rightScrollFlag) {
-        BannerContainer.scrollLeft += 1200; // Scroll right normally
-    } else {
-        BannerContainer.scrollLeft -= 1200; // Scroll left on the second click
-    }
-    rightScrollFlag = !rightScrollFlag; // Toggle the flag
+        BannerContainer.scrollLeft += 1200; 
+
 });
 
