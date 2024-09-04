@@ -11,19 +11,6 @@ leftArrow.addEventListener('click', () => {
     bannerContainer.scrollLeft -= 900; // Move left by 300 pixels
 });
 
-// const BannerleftArrow = document.getElementById('l-arrow-1');
-// const BannerRightArrow =document.getElementById('r-arrow-1');
-
-// const BannerContainer = document.getElementById('banner-container');
-
-//  BannerleftArrow.addEventListener('click',()=>{
-//     BannerContainer.scrollLeft -=1200;
-//  })
-
-//  BannerRightArrow.addEventListener('click',()=>{
-//     BannerContainer.scrollLeft +=1200;
-//  })
-
 const BannerLeftArrow = document.getElementById('l-arrow-1');
 const BannerRightArrow = document.getElementById('r-arrow-1');
 const BannerContainer = document.getElementById('banner-container');
