@@ -4,11 +4,11 @@ const bannerContainer = document.getElementById('Barista-Recommends-items');
 
 rightArrow.addEventListener('click', () => {
     console.log('click-r');
-    bannerContainer.scrollLeft += 390; // Move right by 300 pixels
+    bannerContainer.scrollLeft += 390;
 });
 
 leftArrow.addEventListener('click', () => {
-    bannerContainer.scrollLeft -= 900; // Move left by 300 pixels
+    bannerContainer.scrollLeft -= 900; 
 });
 
 const BannerLeftArrow = document.getElementById('l-arrow-1');
